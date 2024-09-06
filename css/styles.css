@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-cyan: #08a2c9;
+    --background-image: linear-gradient(0deg,
+            hsl(240deg 98% 55%) 0%,
+            hsl(232deg 100% 46%) 9%,
+            hsl(231deg 100% 43%) 16%,
+            hsl(230deg 100% 40%) 21%,
+            hsl(230deg 100% 37%) 26%,
+            hsl(229deg 100% 34%) 31%,
+            hsl(228deg 100% 31%) 35%,
+            hsl(228deg 100% 28%) 40%,
+            hsl(228deg 100% 25%) 45%,
+            hsl(227deg 100% 22%) 51%,
+            hsl(227deg 100% 19%) 58%,
+            hsl(227deg 100% 16%) 65%,
+            hsl(228deg 100% 13%) 76%,
+            hsl(234deg 96% 10%) 100%)
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Catamaran", sans-serif;
+    background-image: var(--background-image);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--color-white);
+    text-align: center;
+    letter-spacing: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 3rem;
+
+    input {
+        width: 30rem; 
+        border: none; 
+        padding: 1rem; 
+        border-radius: 1rem; 
+        color: var(--color-black); 
+        font-size: 1.5rem; 
+    }
+
+    button {
+        padding: .8rem 2rem; 
+        border-radius: 1rem; 
+        border: none; 
+        background-color: var(--color-cyan); 
+        color: var(--color-white); 
+        font-size: 2rem;
+        margin-top: 3rem;
+        cursor: pointer; 
+    }
+
+    h3{
+        margin-top: 10rem;
+        color: var(--color-white);
+    }
+
+    
+    .item-resultado {
+        background: var(--color-white); 
+        border-radius: 0.6rem; 
+        padding: 1rem; 
+        margin-bottom: 1rem; 
+        width: 80%;
+        
+        h2 {
+            font-size: 2rem; 
+            margin-bottom: .6rem;
+        }
+        a {
+            color: var(--color-cyan); 
+            text-decoration: none; 
+            font-size: 2rem;
+        }
+        
+        p{
+            font-size: 1.6rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+    }
+}
+
+.resultado-pesquisa {
+    width: 90vw; 
+    height: 60vh; 
+    overflow-y: auto; 
+}
+
+footer {
+    background-color: var(--color-white);
+    width: 100%; 
+    height: 5vh;
+    position: absolute; 
+    bottom: 0; 
+    
+    p{
+        font-size: 2rem; 
+        color: var(--color-black); 
+        text-align: center; 
+        margin-top: 1rem;
+        
+    }
+}
