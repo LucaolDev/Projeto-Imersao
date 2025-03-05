@@ -6,7 +6,7 @@ Como usar?
 
 3. Uma lista de informações sobre a linguagem aparecerá, incluindo:
 
-*Descrição: Descubra para que serve essa linguagem.
+*Descubra para que serve essa linguagem.
 
 *Ano de Criação: Saiba quando essa linguagem surgiu.
 
@@ -14,7 +14,7 @@ Como usar?
 
 *Uso Principal: Entenda onde essa linguagem é mais utilizada.
 
-*Link: Mergulhe mais fundo e explore a linguagem em sua fonte original.
+*Mergulhe mais fundo e explore a linguagem em sua fonte original.
 
 O que você encontra aqui?
 
